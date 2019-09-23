@@ -1,0 +1,19 @@
+header {
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 40px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  margin-top: 8vh;
+}
