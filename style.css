@@ -34,6 +34,10 @@ section {
   padding-top: 4vh;
 }
 
+h2 {
+  text-align: center;
+}
+
 button {
   margin: 3px;
 }
@@ -72,6 +76,15 @@ footer {
 
   nav ul {
     flex-direction: column;
+  }
+
+  footer {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
   }
 
 }
