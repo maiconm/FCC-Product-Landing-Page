@@ -17,11 +17,16 @@ header {
   flex-direction: row;
   justify-content: space-between;
   width: 100vw;
+  background-color: #333;
+  color: white;
 }
 
-/* change p for img */
-header p {
-  padding-left: 8vw;
+header img {
+  padding: 5px 0 0 8vw;
+  max-width: 50px;
+  width: 100%;
+  height: auto;
+  box-shadow: -2px 3px 23px 0px white;
 }
 
 section, form {
@@ -49,6 +54,10 @@ nav ul {
   list-style: none;
 }
 
+li {
+  padding-left: 5vw;
+}
+
 footer {
   justify-content: flex-end;
   height: 100%;
@@ -63,15 +72,15 @@ footer {
   }
 
   header {
+    align-items: center;
     padding: 0;
     flex-direction: column;
     text-align: center;
     width: 100%;
   }
 
-  /* change p for img */
-  header p {
-    padding-left: 0;
+  header img {
+    padding: 5px 0 0 0;
   }
 
   nav ul {
