@@ -90,10 +90,39 @@ button:hover {
 }
 
 .features {
+  gap: 30px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  padding: 5px;
   width: 100%;
   display: grid;
-  grid-template-rows: repeat(3, 30%);
+  grid-template-rows: repeat(3, auto);
   place-items: center;
+  max-width: 800px;
+}
+
+.feature {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 9fr;
+}
+
+.feature h2, .feature p {
+  margin: 0 0 0 10px;
+  text-align: start;
+}
+
+em {
+  text-align: end;
+}
+
+#how-it-works {
+  width: 100vw;
+}
+
+#how-it-works iframe {
+  max-width: 560px;
+  border: 0;
 }
 
 footer {
@@ -122,6 +151,11 @@ footer {
 
   nav ul {
     flex-direction: column;
+  }
+
+  .features {
+    max-width: 400px;
+    width: 90%;
   }
 
   footer {
