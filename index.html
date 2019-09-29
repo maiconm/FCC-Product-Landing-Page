@@ -35,25 +35,25 @@
             <li>
               <a
                 class="nav-link"
-                href="#!"
+                href="#features-container"
               >
-                option 1
+                Features
               </a>
             </li>
             <li>
               <a
                 class="nav-link"
-                href="#!"
+                href="#how-it-works"
               >
-                option 2
+                Samples
               </a>
             </li>
             <li>
               <a
                 class="nav-link"
-                href="#!"
+                href="#buy-it"
               >
-                option 3
+                Buy now
               </a>
             </li>
           </ul>
@@ -66,16 +66,23 @@
           id="form"
         >
           <input
+            name="email"
+            id="email"
             type="email"
             required
             placeholder="Enter your email"
           >
-          <button type="submit">
-            SEND
-          </button>
+          <input
+            id="submit"
+            type="submit"
+            value="SEND"
+          >
         </form>
       </section>
-      <div class="features">
+      <div
+        class="features"
+        id="features-container"
+      >
         <div class="feature">
           <em class="fa fa-3x fa-pencil"></em>
           <div>
@@ -109,6 +116,7 @@
         </div>
       </div>
       <section id="how-it-works">
+        <h2>It does a lot more than just writing</h2>
         <iframe
           title="pen features sample"
           id="video"
@@ -119,7 +127,10 @@
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
       </section>
-      <div class="pricing">
+      <div
+        class="pricing"
+        id="buy-it"
+      >
         <p>card 1 with pricing goes here</p>
         <p>card 2 with pricing goes here</p>
         <p>card 3 with pricing goes here</p>
