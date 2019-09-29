@@ -64,6 +64,38 @@ li {
   padding-left: 5vw;
 }
 
+form {
+  width: 100%;
+}
+
+input {
+  padding: 2px;
+  border-radius: 4px;
+  width: 60%;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+button {
+  width: 60%;
+  background-color: green;
+  color: white;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: rgb(0, 139, 0);
+}
+
+.features {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(3, 30%);
+  place-items: center;
+}
+
 footer {
   justify-content: flex-end;
   height: 100%;
