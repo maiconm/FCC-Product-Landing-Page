@@ -1,7 +1,7 @@
 # FCC-Product-Landing-Page
 Third project of five projects from Responsive Web Design Certification course from Free Code Camp
 
-live demo 👉 coming soon
+live demo 👉 https://codepen.io/maiconm/pen/wvwbNwy
 
 **Author:** Maicon Andraski
 You can use this project as reference to build your own.
